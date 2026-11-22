@@ -6,7 +6,7 @@
 /*   By: ziyad <ziyad@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/21 11:35:47 by ziyad             #+#    #+#             */
-/*   Updated: 2026/11/21 11:45:24 by ziyad            ###   ########.fr       */
+/*   Updated: 2026/11/22 15:01:44 by ziyad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	{
 		dest[i] = src[i];
 		i++;
-		while (i < n)
-		{
-			dest[i] = '\0';
-			i++;
-		}
+	}
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
